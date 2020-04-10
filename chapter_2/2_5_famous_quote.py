@@ -1,0 +1,1 @@
+print('Joe Rogan once said, "By putting yourself in that intense form of stress, it makes regualr life more peaceful."')
