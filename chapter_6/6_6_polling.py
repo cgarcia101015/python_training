@@ -1,10 +1,10 @@
 #A dictionary of similar objects
-# favorite_languages = {
-# 	'jen': 'python',
-# 	'sarah': 'c',
-# 	'edward': 'ruby',
-# 	'phil': 'python',
-# 	}
+favorite_languages = {
+	'jen': 'python',
+	'sarah': 'c',
+	'edward': 'ruby',
+	'phil': 'python',
+	}
 
 # language = favorite_languages['sarah'].title()
 # print(f"Sarah's favorite language is {language}.")
@@ -48,17 +48,18 @@
 # 	print(language.title())
 
 
-favorite_languages = {
-	'jen': ['python', 'ruby'],
-	'sarah': ['c'],
-	'edward': ['ruby', 'go'],
-	'phil': ['python', 'haskell'],
-	}
+polsters = ['phil', 'sarah', 'edward', 'fred', 'bob', 'ted']
 
-for name, languages in favorite_languages.items():
-	print(f"\n{name.title()}'s favorite languages are:")
-	for language in languages:
-		print(f"\t{language.title()}")
+for name in polsters:
+	print(f"Hi {name.title()}.")
+
+	if name in favorite_languages:
+		language = favorite_languages[name].title()
+		print(f"\tThank you for responding!")
+	elif name not in favorite_languages:
+		
+		print(f"\tYou should take the poll!")
+
 
 
 
