@@ -1,6 +1,26 @@
-def describe_city(city,country = 'canada'):
-	print(f"\n{city.title()} is in {country.title()}.")
+# import describe_cities
+
+# describe_cities.describe_city('montreal')
+
+
+
+# from describe_cities import describe_city
+
+# describe_city('montreal')
+
+
+
+# from describe_cities import describe_city as dc
+
+# dc('montreal')
+
+
+
+# import describe_cities as dc
+
+# dc.describe_city('montreal')
+
+
+from describe_cities import *
 
 describe_city('montreal')
-describe_city('vancouver')
-describe_city('paris','france')
