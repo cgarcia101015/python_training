@@ -1,7 +1,7 @@
 def make_car(
 		manufacturer,model,
 		**car_info):
-	"""Build a dictionary containing everything we know about a car"""
+	"""Build a dictionary containin˜g everything we know about a car"""
 	car_info['manufacturer'] = 'manufacturer'
 	car_info['model'] = 'model'
 	return car_info
